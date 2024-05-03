@@ -1,0 +1,32 @@
+{
+  "gar_server_hostnames": {
+    "sensitive": false,
+    "type": [
+      "tuple",
+      [
+        "string"
+      ]
+    ],
+    "value": [
+      "gar1"
+    ]
+  },
+  "gar_server_ips": {
+    "sensitive": false,
+    "type": [
+      "tuple",
+      [
+        [
+          "list",
+          "string"
+        ]
+      ]
+    ],
+    "value": [
+      [
+        "172.16.60.203",
+        "fe80::250:56ff:fe9e:feb4"
+      ]
+    ]
+  }
+}
